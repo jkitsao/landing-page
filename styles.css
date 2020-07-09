@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body{
+    margin:0;
+    padding:0;
+}
+h2{
+    margin:0;
+}
+a{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+img{
+    width:100%;
+}
+.container{
+    /* background-image: url('https://images.unsplash.com/photo-1485175744505-f78b09e00b7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'); */
+    background: rgb(66,14,37);
+    background: radial-gradient(circle, rgba(66,14,37,1) 0%, rgba(10,30,55,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+nav{
+    padding: 0.6rem;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 1, 17);
+}
+.logo-text{
+    font-family:monospace;
+    font-size: 2rem;
+    color:wheat;
+}
+.ul-cont{
+    display:flex;
+    justify-content: space-evenly;
+}
+.ul-cont ul {
+    display:flex;
+
+}
+.ul-cont ul li{
+list-style: none;
+margin:0 0.8rem;
+
+    
+}
+.ul-cont ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.content{
+    text-align: center;
+}
+.content-header{
+    margin:auto;
+    max-width: 60rem;
+    margin-top:10rem;
+}
+.content-text{
+    color:white;
+    font-size: 3rem;
+    font-family: 'Bangers', cursive;
+    font-weight: 100;
+}
+.btn{
+    width: 6.8rem;
+    height:2.8rem;
+    color:rgb(24, 8, 8);
+    margin-top:3rem;
+    font-size: large;
+    background-color: rgb(9, 214, 221);
+    border:none;
+    cursor:pointer;
+    /* margin-left:20rem; */
+}
+.typed-cursor {
+    cursor: text;
+    color:white;
+    display:inline;
+}
+
+/* If fade out option is set */
+.typed-fade-out {
+    cursor: text;
+}
+.program{
+    text-align: center;
+    font-size: 3rem;
+    color:green;
+}
+.section-cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width:30%;
+    margin:2rem 1rem;
+    box-shadow: 10px 5px 17px -10px rgba(54,53,54,1);
+    font-family: sans-serif;
+}
+
+.card-header{
+    padding:0 1rem;
+}
+.card-title{
+    font-size: x-large;
+    color:rgb(0, 66, 0);
+}
+.card-p{
+    padding:0 1rem;
+    font-size: large;
+    color:rgb(1, 17, 41);
+}
+.banner{
+    background-color: rgb(0, 32, 0);
+    padding:4rem;
+}
+.faq{
+    font-size: xx-large;
+    color:white;
+}
+.question{
+    color:white;
+    font-size: x-large;
+}
+.big-q{
+    font-size: 1.5rem;
+    color:rgb(6, 218, 189);
+}
+
+@media only screen and (max-width: 700px) {
+    .section-cards{
+        display:block;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width:100%;
+    }
+    .content-text{
+        color:white;
+        font-size: 2rem;
+        font-family: 'Bangers', cursive;
+        font-weight: 100;
+    }
+  }

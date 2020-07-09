@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <title>Landing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h2 class="logo-text">Moringa prep</h2>
+        </div>
+        <div class="ul-cont">
+          <ul>
+            <li><a href="/">About us</a></li>
+            <li><a href="/">Courses</a></li>
+            <li><a href="/">Alumnis</a></li>
+            <li><a href="/">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="content-header">
+          <h1 class="content-text" id="typed-h1"></h1>
+        </div>
+        <button class="btn">
+          Learn more
+        </button>
+      </div>
+    </div>
+
+    <!-- card section -->
+
+    <div class="section">
+      <div>
+        <h3 class="program">Our ongoing programs</h3>
+      </div>
+      <div class="section-cards">
+        <!-- cards start here -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://bit.ly/2ZVxQeD" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3 class="card-title">Fullstack Development</h3>
+            </div>
+            <div class="card-p">
+              <p>
+                Full stack development: It refers to the development of both
+                front end(client side) and back end(server side) portions of web
+                application.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- second card starts here -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://bit.ly/2W1vXvw" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3 class="card-title">Android Development</h3>
+            </div>
+            <div class="card-p">
+              <p>
+                Android software development is the process by which
+                applications are created for devices running the Android
+                operating system
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- third card starts here -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://bit.ly/2CmLBKZ" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3 class="card-title">Data science</h3>
+            </div>
+            <div class="card-p">
+              <p>
+                Data science is an inter-disciplinary field that uses scientific
+                methods, processes, algorithms and systems to extract knowledge
+                and insights from many structural and unstructured data
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="banner">
+          <h4 class="faq">Faq</h4>
+          <div class="duration">
+            <h4 class="question">
+              Q. Do you guarantee employment upon completion of this course?
+            </h4>
+            <p class="big-q">
+              Do you guarantee employment upon completion of this course? A. No.
+              What we guarantee is career-ready skills. Our courses are
+              practical and relevant to the market. That is why many of our
+              graduates find jobs. Moringa School offers support through
+              training and informing graduates of job opportunities. Graduates
+              then apply and some get these jobs. Other graduates have found
+              jobs without our direct support while others have ventured into
+              freelancing and entrepreneurship. Moringa School is proud to have
+              helped all these brilliant young people achieve their career
+              goals.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var typed = new Typed(".content-text", {
+        strings: [
+          "Hello there and welcome to Moringa school prep program A 5week course designed to bring you up to speed with the latest trends in programming",
+        ],
+        smartBackspace: true, // Default value
+        typeSpeed: 40,
+      });
+    </script>
+  </body>
+</html>
